@@ -193,7 +193,7 @@ Following is the complete new `core.clj` source code.
   (GET "/" [] "<p>Hello from compojure</p>")
   (POST "/login" [email password] (authenticate-user email password))
   (resources "/")
-  (not-found "Page non found"))
+  (not-found "Page not found"))
 
 (def handler
   (site app-routes))
