@@ -322,7 +322,7 @@ ClojureScript:cljs.user> (* "6" "7")
 ClojureScript:cljs.user>
 ```
 
-As you can see, CLJS implicitly casts strings to numbers when applies
+As you can see, CLJS implicitly casts strings to numbers when we apply
 some arithmetic functions, but not all them. As an example try to add
 two stringified numbers and them multiply the result by 2 (stringified
 or not its the same).
