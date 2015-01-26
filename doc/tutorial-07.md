@@ -101,7 +101,7 @@ named `:pre-prod`, which uses `:simple` compilation mode.
                            ;; simple optimization
                            :optimizations :simple
 
-                           ;; no need prettyfication
+                           ;; no need for prettyfication
                            :pretty-print false}}}})
 ```
 
@@ -188,7 +188,7 @@ code snippet.
                            ;; advanced optimization
                            :optimizations :advanced
 
-                           ;; no need prettyfication
+                           ;; no need for prettyfication
                            :pretty-print false}}
                :pre-prod
                {;; clojurescript source code path
@@ -199,7 +199,7 @@ code snippet.
                            ;; simple optmization
                            :optimizations :simple
 
-                           ;; no need prettyfication
+                           ;; no need for prettyfication
                            :pretty-print false}}}})
 ```
 
@@ -410,7 +410,7 @@ the `:prod` build as it was.
                            ;; simple optimization
                            :optimizations :simple
 
-						   ;; no need prettyfication
+						   ;; no need for prettyfication
                            :pretty-print false}}
                :prod
                {;; clojurescript source code path
@@ -422,7 +422,7 @@ the `:prod` build as it was.
                            ;; advanced optimization
                            :optimizations :advanced
 
-						   ;; no need prettyfication
+						   ;; no need for prettyfication
                            :pretty-print false}}}})
 ```
 
